@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Portfolio website">
+	<meta name="author" content="Michael Duncan">
+	<title>Portfolio Website</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+	<link rel="shortcut icon" href="img/favicon.ico" >
+</head>
+<body>
+	<a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+	<nav id="sidebar-wrapper">
+		<ul class="sidebar-nav">
+			<a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+			<li class="sidebar-brand">
+				<a href="" onclick=$("#menu-close").click();>Michael Duncan</a>
+			</li>
+			<li>
+				<a href="#home" onclick=$("#menu-close").click();>Home</a>
+			</li>
+			<li>
+				<a href="#summary" onclick=$("#menu-close").click();>Summary</a>
+			</li>
+			<li>
+				<a href="#work" onclick=$("#menu-close").click();>Education</a>
+			</li>
+			<li>
+				<a href="#projects" onclick=$("#menu-close").click();>Projects</a>
+			</li>
+		</ul>
+	</nav>
+	<header id="home" class="header">
+		<div class="blurImg">
+			<div class="image"></div>
+			<div class="blur blurimage"></div>
+		</div>
+		<div class="text-vertical-center">
+			<img class="img-responsive img-circle center-block grow" src="img/default-user.jpg" width="200px" alt="">
+			<h1>Michael Duncan</h1>
+			<h3>Software Developer</h3>
+			<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a target="_blank" href="http://linkedin.com/in/duncanmk"><span class="fa fa-linkedin-square fa-4x"></span></a>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a target="_blank" href="http://github.com/duncanmk"><span class="fa fa-github fa-4x" aria-hidden="true"></span></a>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a target="_blank" href="mailto:duncanmk@acad.sunybroome.edu"><span class="fa fa-envelope fa-4x" aria-hidden="true"></span></a>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a target="_blank" href="Resume.pdf"><span class="fa fa-file-text fa-4x" aria-hidden="true"></span></a>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<br>
+			<br>
+			<br>
+			<a href="#summary" class="btn page-scroll">
+				<i class="fa fa-angle-double-down animated"></i>
+			</a>
+		</div>
+	</header>
+	<section id="summary" class="summary">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3"></div>
+				<div class="col-lg-6 text-center">
+					<i class="fa fa-user-circle fa-4x"></i>
+					<h2>Summary</h2>
+					<hr>
+					<p class="lead">My name is Michael Duncan, and I am a student majoring in computer science at SUNY Broome.</p>
+					<p class="lead">I am inspired by technology and motivated to actively learn and improve my understanding of computer science concepts.</p>
+					<p class="lead">My interests include graphics programming, artificial intelligence, applied mathematics, and open-source software.</p>
+					<p class="lead">As a soon-to-be college graduate, I am excited to apply my skills professionally so that I can create a positive impact in the world.</p>
+					<hr>
+					<h3><a target="_blank" href="Resume.pdf">Resume</a></h3><br>
+				</div>
+				<div class="col-lg-3"></div>
+			</div>
+		</div>
+	</section>
+	<section id="workimage" class="content-section text-center">
+		<div class="text-container">
+			<p><strong>Educational Background</strong></p>
+		</div>
+	</section>
+	<section id="work" class="work">
+		<div class="container">
+			<div class="row" id="workheading">
+				<div class="col-lg-3"></div>
+				<div class="col-lg-6 text-center">
+				<i class="fa fa-graduation-cap fa-4x"></i>
+				<hr>
+				</div>
+				<div class="col-lg-3"></div>
+			</div>
+			<div class="row" id="company">
+				<div class="col-lg-3"></div>
+				<div class="col-lg-6 text-center">
+					<a target="_blank" href="http://www1.sunybroome.edu/">
+					<img class="img-responsive img-circle center-block grow" src="img/suny_broome.jpg" width="150px" alt=""></a>
+					<h2><span>SUNY Broome Community College</span><br>
+					<span>Computer Science</span><br>
+					<small>Binghamton, NY</small><br>
+					<small>Associates Degree</small><br>
+					<small>Honors Graduate</small><br>
+					<small>Dean's List and Presidents List</small><br>
+					<small>GPA: 3.8</small>
+					</h2>
+					<hr>
+				</div>
+				<div class="col-lg-3"></div>
+			</div>
+		</div>
+	</section>
+	<section id="projectimage" class="content-section text-center">
+		<div class="text-container">
+			<p><strong>Project Development</strong></p>
+		</div>
+	</section>
+	<section id="projects" class="projects">
+		<div class="container">
+			<div class="row" id="projectsheading">
+				<div class="col-lg-3"></div>
+				<div class="col-lg-6 text-center">
+				<i class="fa fa-code fa-4x"></i>
+				<hr>
+				</div>
+				<div class="col-lg-3"></div>
+			</div>
+			<br>
+			<div class="row">
+				<div class="col-lg-2 text-center">
+				</div>
+				<div class="col-lg-4 text-center">
+					<a target="_blank" href="https://github.com/duncanmk/Terrain">
+					<img class="img-responsive img-circle center-block grow" src="img/terrain.jpg" width="150px" alt=""></a>
+					<h2><span>Procedural Terrain</span><br>
+					<small>C++, OpenGL, SDL2, GLM</small><br>
+					<small><a target="_blank" href="https://github.com/duncanmk/Terrain">GitHub</a></small>
+					</h2>
+				</div>
+				<div class="col-lg-4 text-center">
+					<a target="_blank" href="https://github.com/duncanmk/Reversi">
+					<img class="img-responsive img-circle center-block grow" src="img/reversi.jpg" width="150px" alt=""></a>
+					<h2><span>Reversi AI</span><br>
+					<small>C, SDL2</small><br>
+					<small><a target="_blank" href="https://github.com/duncanmk/Reversi">GitHub</a></small>
+					</h2>
+				</div>
+				<div class="col-lg-2 text-center">
+				</div>
+			</div>
+			<br>
+			<br>
+			<div class="row">
+				<div class="col-lg-2 text-center">
+				</div>
+				<div class="col-lg-4 text-center">
+					<a target="_blank" href="https://github.com/duncanmk/Network-LZMA">
+					<img class="img-responsive img-circle center-block grow" src="img/network.jpg" width="150px" alt=""></a>
+					<h2><span>Network LZMA</span><br>
+					<small>C# .NET, LZMA</small><br>
+					<small><a target="_blank" href="https://github.com/duncanmk/Network-LZMA">GitHub</a></small>
+					</h2>
+				</div>
+				<div class="col-lg-4 text-center">
+					<a target="_blank" href="https://github.com/duncanmk/Digit-Recognition">
+					<img class="img-responsive img-circle center-block grow" src="img/kaggle.png" width="150px" alt=""></a>
+					<h2><span>Digit Recognition</span><br>
+					<small>Java, Swing</small><br>
+					<small><a target="_blank" href="https://github.com/duncanmk/Digit-Recognition">GitHub</a></small>
+					</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-4 text-center">
+				</div>
+				<div class="col-lg-4 text-center">
+					<a target="_blank" href="https://github.com/duncanmk/duncanmk.github.io">
+					<img class="img-responsive img-circle center-block grow" src="img/website.png" width="150px" alt=""></a>
+					<h2><span>Personal Website</span><br>
+					<small>HTML, CSS, JavaScript</small><br>
+					<small><a target="_blank" href="https://github.com/duncanmk/duncanmk.github.io">GitHub</a></small>
+					</h2>
+				</div>
+			</div>
+			<div class="col-lg-3"></div>
+			<div class="col-lg-6 text-center">
+			<hr>
+			</div>
+			<div class="col-lg-3"></div>
+		</div>
+	</section>
+	<footer>
+		<div class="container text-center">
+			<p class="lead">Please contact me through the email address or phone number found within my 
+			<a target="_blank" href="Resume.pdf">Resume</a></p>
+			<p class="lead">If you would like to use my resume design, you may modify this 
+			<a target="_blank" href="Resume.docx">Template</a> (MIT License)</p>
+			<p>Copyright &copy; 2018 Michael Duncan (MIT License)</p>
+		</div>
+	</footer>
+	<a id="back-to-top" href="#" class="btn btn-dark btn-lg back-to-top" role="button"><span class="glyphicon glyphicon-chevron-up"></span></a>
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script>
+		$("#menu-close").click(function(e){
+			e.preventDefault();
+			$("#sidebar-wrapper").toggleClass("active");
+		});
+		$("#menu-toggle").click(function(e){
+			e.preventDefault();
+			$("#sidebar-wrapper").toggleClass("active");
+		});
+		$(function(){
+			$('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function(){
+				if(location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname){
+					var target = $(this.hash);
+					target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+					if (target.length){
+						$('html,body').animate({scrollTop: target.offset().top}, 1000);
+						return false;
+					}
+				}
+			});
+		});
+		var fixed = false;
+		$(document).scroll(function(){
+			if($(this).scrollTop() > 250){
+				if(!fixed){
+					fixed = true;
+					$('#to-top').show("slow", function(){
+						$('#to-top').css({position: 'fixed', display: 'block'});
+					});
+				}
+			}
+			else{
+				if(fixed){
+					fixed = false;
+					$('#to-top').hide("slow", function(){$('#to-top').css({display: 'none'});});
+				}
+			}
+		});
+		var onMapMouseleaveHandler = function(event){
+			var that = $(this);
+			that.on('click', onMapClickHandler);
+			that.off('mouseleave', onMapMouseleaveHandler);
+			that.find('iframe').css("pointer-events", "none");
+		}
+		var onMapClickHandler = function(event){
+				var that = $(this);
+				that.off('click', onMapClickHandler);
+				that.find('iframe').css("pointer-events", "auto");
+				that.on('mouseleave', onMapMouseleaveHandler);
+		}
+		$('.map').on('click', onMapClickHandler);
+	</script>
+	<script type="text/javascript">
+		(function (){
+			$(window).scroll(function (){
+				var oVal;
+				oVal = $(window).scrollTop() / 500;
+				return $('.blur').css('opacity', oVal);
+			});
+		}.call(this));
+	</script>
+	<script>
+		$(document).ready(function(){
+			$(window).scroll(function (){
+				if ($(this).scrollTop() > 50){
+					$('#back-to-top').fadeIn();
+				}
+				else{
+					$('#back-to-top').fadeOut();
+				}
+			});
+			$('#back-to-top').click(function (){
+				$('#back-to-top').tooltip('hide');
+				$('body,html').animate({scrollTop: 0}, 800);
+				return false;
+			});
+			$('#back-to-top').tooltip('show');
+		});
+	</script>
+</body>
+</html>
